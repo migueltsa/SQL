@@ -1,5 +1,5 @@
-IF OBJECT_ID('demo2','U') IS NOT NULL
-DROP TABLE demo2
+IF OBJECT_ID('demo','U') IS NOT NULL
+DROP TABLE demo
 
 CREATE TABLE [Department](
 	[Id] [bigint] IDENTITY(1,1) NOT NULL,
